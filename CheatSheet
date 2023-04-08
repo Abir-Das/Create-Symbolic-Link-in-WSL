@@ -1,0 +1,13 @@
+>> Start wsl and go preffred directory
+  -> In my case it is - /server/www/
+ 
+>>create a folder in windows
+  -> in my case it is - /g/development
+  
+>>got to wsl and run this command
+   -> ln -s /mnt/g/development secretProjects
+  
+  Note: ln                 = link
+        -s                 = symbolic link
+        /mnt/g/development = actual directory path
+        secretProjects     = symbolic link's folder name
